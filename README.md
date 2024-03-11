@@ -1,2 +1,2 @@
 # todoapp
-Todo Application using MERN stack
+Todo Application using MERN stack - Personal Project
