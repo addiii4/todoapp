@@ -24,7 +24,7 @@ router.post("/signin", async(req,res) => {
     } else{
         let validPass = bcrypt.compareSync(req.body.password, user.password);
         if (!validPass) {
-            res.status(401).json({message: "Invalid password"})
+            res.status(400).json({message: "Invalid password"})
         }
         const { password, ...others} =  user._doc;
         res.status(200).json(others)
