@@ -47,7 +47,7 @@ const navbar = () => {
                   <img
                     className="img-fluid user-png"
                     src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png"
-                    alt="user profile image"
+                    alt="profile"
                   ></img>
                 </a>
               </li>
