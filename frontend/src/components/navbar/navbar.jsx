@@ -4,7 +4,7 @@ import "./navbar.css";
 const navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-custom">
         <div className="container">
           <a className="navbar-brand" href="/#">
             <b>TODO</b>
